@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to GreenHunch Community</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js"></script>
+    <style>
+        img{
+            position:absolute;
+  height: 100px;
+  width: 200px;
+right: 25%;
+bottom: 68%;
+
+ 
+}
+    </style>
+</head>
+
+<body>
+    <div>
+     <img src="https://www.freelogodesign.org/file/app/client/thumb/0d5f0aec-2b1b-457a-a956-a9a92fd232f3_200x200.png?1615310720140" alt="GreenHunch LOGO." >
+    </div>
+
+    <div id="main">
+        <div class="h-tag">
+            <h2>Welcome to GreenHunch Community</h2>
+        </div>
+        <div  class="text">
+        <div class="login">
+            <table cellspacing="2" align="center" cellpadding="8" border="0">
+                <tr>
+                    <td align="right">Enter Name :</td>
+                    <td><input type="text" placeholder="yourName" id="t1" class="tb" />
+                        <div> <small id="error_reg_nametest" class="text-dark mt-3 "></small></div>
+                        <div> <small id="error_reg_nameempty" class="text-dark mt-3 "></small></div>
+                    </td>
+                   
+             
+                </tr>
+                
+                <tr>
+                    <td align="right">Enter Email ID :</td>
+                    <td><input type="text" placeholder="emailID" id="t2" class="tb" />
+                        <div> <small id="error_reg_mailinvalid" class="text-dark mt-3 "></small></div>
+                        <div> <small id="error_reg_mailempty" class="text-dark mt-3 "></small></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Enter Username :</td>
+                    <td><input type="text" placeholder="userName" id="t3" class="tb" />
+                        <div> <small id="error_reg_unameinvalid" class="text-dark mt-3 "></small></div>
+                        <div> <small id="error_reg_unameempty" class="text-dark mt-3 "></small></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Enter Password :</td>
+                    <td><input type="password" placeholder="Password" id="t4" class="tb" />
+                        <div> <small id="error_reg_pwdempty" class="text-dark mt-3 "></small></div>
+                        <div> <small id="error_reg_pwdinvalid" class="text-dark mt-3 "></small></div>
+                        <div> <small id="error_reg_pwdmaxlength" class="text-dark mt-3 "></small></div>
+                        <div> <small id="error_reg_pwdminlength" class="text-dark mt-3 "></small></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Enter Confirm Password :</td>
+                    <td><input type="password" placeholder="Repeat Password" id="t5" class="tb" />
+                        <div> <small id="error_reg_cpwdempty" class="text-dark mt-3 "></small></div>
+                        <div> <small id="error_reg_cppwd" class="text-dark mt-3 "></small></div>
+                    </td>
+                </tr>
+               
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="reset" value="Clear Form" onclick="clearFunc()" id="res" class="btn" />
+                        <input type="submit" value="Create Account" class="btn" onclick="registration()" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+
+</html>

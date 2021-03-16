@@ -1,0 +1,82 @@
+
+
+body
+    {
+        margin:10% 25%;
+        /* background-color:white; */
+        background-image:url("loginpagebgimg.jfif");
+        /* background-attachment: fixed; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        color:black;
+        border-radius: 20px;
+        box-shadow:0px 2px 12px black;
+        width: 50%;
+    }
+    
+    #main{
+        width:600px;
+         height:auto; 
+         overflow:hidden; 
+         padding-bottom:20px; 
+         margin-left:auto; 
+         margin-right:auto; 
+    border-radius:5px;
+     padding-left:10px; 
+     margin-top:100px;
+    padding-top:20px;
+    }
+    
+    #main .tb{
+        height:28px; 
+        width:230px; 
+        border:1px solid black; 
+        color: black;
+         font-weight:bold; 
+        border-left:5px solid black; 
+        opacity:0.9;
+    }
+    
+    #main .tb:focus{
+        height:28px;
+         border:1px solid #f26724;
+          outline:none;
+           border-left:5px solid #f7f7f7;}
+
+    /* css code for button*/
+    #main .btn{
+     width:150px; 
+     height:32px;
+     outline:none;
+     color:rgb(173, 173, 23);
+     font-weight:bold;
+    border:0px solid black; 
+    text-shadow: 0px 0.5px 0.5px #fff;
+     border-radius: 2px; 
+     font-weight: 600;
+      letter-spacing: 1px; 
+    font-size:14px;
+     background-color:darkblue;
+     box-shadow: 0px 2px 1px black; 
+     -webkit-transition: 1s;
+      -moz-transition: 1s; 
+      transition: 1s;}
+  
+    #main .btn:hover{
+    background-color:rgb(173, 173, 23);
+    color: darkblue; 
+    outline:none; 
+    box-shadow: 0px 0px 0px;
+    border-radius: 2px; 
+    
+    border-radius: 10%;
+    -webkit-transition: 1s; 
+    -moz-transition: 1s; 
+    transition: 1s; }
+
+  
+
+    @media only screen and (max-width:620px){
+
+    }
+    
